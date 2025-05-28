@@ -1,0 +1,106 @@
+# Elixir Build Artifacts
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+
+# Elixir Language Server
+/.elixir_ls/
+
+# Mix
+erl_crash.dump
+*.ez
+
+# Generated on crash by the VM
+erl_crash.dump
+
+# Ignore package tarball (built via "mix hex.build")
+flight_tracker-*.tar
+
+# Temporary files, for example, from tests
+/tmp/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*~
+*.swp
+*.swo
+*#
+.#*
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.test
+*.pem
+*.key
+
+# Application-specific files
+flight_tracking_state.bin
+*.log
+
+# Release builds
+/rel/
+/_build/prod/rel/
+
+# Backup files
+*.backup
+*.bak
+backup-*/
+
+# Test coverage
+/cover/
+
+# Documentation
+/doc/
+
+# Hex packages
+*.tar
+
+# If using asdf version manager
+.tool-versions
+
+# If using kiex version manager
+.kiex_mix_version
+
+# Deployment scripts with sensitive data (if any)
+# Uncomment if you have deployment scripts with secrets
+# deploy_secrets.sh
+# production.env
+
+# Local development overrides
+config/dev.secret.exs
+config/prod.secret.exs
+
+# Phoenix (if added later)
+# /assets/node_modules/
+# /priv/static/assets/
+# /priv/static/cache_manifest.json
+
+# Dialyzer
+/priv/plts/
+
+# Sobelow
+.sobelow-*
+
+# Credo
+.credo.exs
+
+# Local test files
+test_*.exs
+debug_*.exs 

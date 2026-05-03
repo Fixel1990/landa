@@ -1,0 +1,9 @@
+services:
+  flight_tracker:
+    build: .
+    container_name: flight_tracker
+    environment:
+      # Diese Werte füllen wir später in Portainer aus!
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - AVIATIONSTACK_API_KEY=${AVIATIONSTACK_API_KEY}
+    restart: unless-stopped
